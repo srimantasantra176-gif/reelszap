@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: reelszap
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
